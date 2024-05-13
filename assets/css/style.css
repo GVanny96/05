@@ -1,0 +1,32 @@
+/**Reset**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**Variável**/
+
+:root{
+    --color-loginpage: rgb(252, 173, 4);
+    --color-text: #fff;
+}
+
+/*mobile*/
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.loginpage{
+    width: 500px;
+    height: 700px;
+    background-color: var(--color-loginpage);
+    border-radius: 15px;
+}
+
+.inputbox{
+    color: var(--color-text);
+    
+}
